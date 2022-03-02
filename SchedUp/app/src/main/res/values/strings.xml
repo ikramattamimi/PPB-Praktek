@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SchedUp!</string>
+    <string name="statistic">Statistic</string>
+    <string name="monday_febr">Monday, February 28, 2022</string>
+    <string name="some_id">23:59</string>
+    <string name="group_task">Group task</string>
+    <string name="tuesday_mar">Tuesday, March 1, 2022</string>
+    <string name="software_en">Software Engineering</string>
+    <string name="ssd">SSD</string>
+    <string name="calculus">Calculus</string>
+    <string name="task_on_pag">Task on page 29</string>
+    <string name="some_id1">15:00</string>
+
+
+</resources>

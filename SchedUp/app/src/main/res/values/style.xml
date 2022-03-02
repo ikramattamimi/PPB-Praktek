@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="statistic">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #2BA5B6
+        </item>
+
+    </style>
+
+    <style name="monday_febr">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+    <style name="some_id">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+    <style name="group_task">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+    <style name="tuesday_mar">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+    <style name="software_en">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #2BA5B6
+        </item>
+
+    </style>
+
+    <style name="ssd">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+    <style name="calculus">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #2BA5B6
+        </item>
+
+    </style>
+
+    <style name="task_on_pag">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #858585
+        </item>
+
+    </style>
+
+</resources>
