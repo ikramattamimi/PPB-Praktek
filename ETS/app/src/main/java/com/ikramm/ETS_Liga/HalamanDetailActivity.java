@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ikramm.ETS_Liga.R;
 import com.ikramm.ETS_Liga.model.Klub;
 import com.squareup.picasso.Picasso;
 

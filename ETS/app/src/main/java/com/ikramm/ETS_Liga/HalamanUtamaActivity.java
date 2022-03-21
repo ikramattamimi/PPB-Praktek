@@ -11,9 +11,8 @@ package com.ikramm.ETS_Liga;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-    import com.ikramm.ETS_Liga.model.DataKlub;
-    import com.ikramm.ETS_Liga.R;
-    import com.ikramm.ETS_Liga.model.Klub;
+import com.ikramm.ETS_Liga.model.DataKlub;
+import com.ikramm.ETS_Liga.model.Klub;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,27 +33,53 @@ public class HalamanUtamaActivity extends AppCompatActivity implements DataKlub.
         listKlub.add(new Klub("Bali United",
                 "Peringkat 1 Klasemen Sementara Liga 1",
                 "https://upload.wikimedia.org/wikipedia/id/thumb/5/5e/Bali_United_logo.svg/200px-Bali_United_logo.svg.png",
-                "Bali United F.C. (sebelumnya bernama Persisam Putra Samarinda) merupakan sebuah klub sepak bola Indonesia," +
-                        "yang bermarkas Stadion Kapten I Wayan Dipta, Kabupaten Gianyar, Provinsi Bali, Indonesia"));
+                "Total main                                       31\n" +
+                        "Menang                                           21\n" +
+                        "Seri                                                     6\n" +
+                        "Kalah                                                 4\n" +
+                        "Goal Masuk                                    52\n" +
+                        "Goal Kemasukan                           22\n" +
+                        "Selisih Goal                                    30"));
         listKlub.add(new Klub("Persib",
                 "Peringkat 2 Klasemen Sementara Liga 1",
                 "https://upload.wikimedia.org/wikipedia/id/thumb/1/12/Logo_Persib.png/200px-Logo_Persib.png",
-                " klub sepak bola Indonesia yang berdiri pada 14 Maret 1933, berbasis di Bandung, Jawa Barat. " +
-                        "Persib saat ini bermain di Liga 1 Indonesia. Julukan mereka adalah Maung Bandung dan Pangeran Biru "));
+                "Total main                                       31\n" +
+                        "Menang                                           20\n" +
+                        "Seri                                                     6\n" +
+                        "Kalah                                                 5\n" +
+                        "Goal Masuk                                    46\n" +
+                        "Goal Kemasukan                           20\n" +
+                        "Selisih Goal                                    26"));
         listKlub.add(new Klub("Persebaya",
                 "Peringkat 3 Klasemen Sementara Liga 1",
                 "https://upload.wikimedia.org/wikipedia/id/thumb/a/a1/Persebaya_logo.svg/200px-Persebaya_logo.svg.png",
-                "APersebaya adalah sebuah klub sepak bola profesional di Indonesia yang berbasis di Surabaya dan berdiri pada 18 Juni 1927 dengan nama asalnya adalah Soerabajasche Indonesische Voetbal Bond (SIVB). " ));
+                "Total main                                       31\n" +
+                        "Menang                                           17\n" +
+                        "Seri                                                     8\n" +
+                        "Kalah                                                 6\n" +
+                        "Goal Masuk                                    51\n" +
+                        "Goal Kemasukan                           32\n" +
+                        "Selisih Goal                                    19"));
         listKlub.add(new Klub("Bhayangkara",
                 "Peringkat 4 Klasemen Sementara Liga 1",
                 "https://upload.wikimedia.org/wikipedia/id/f/fe/Logo_Bhayangkara_Solo_FC.png?20201128151858",
-                "Bhayangkara Football Club adalah sebuah tim sepak bola Indonesia yang dimiliki oleh Polri yang berbasis di Jakarta Selatan. " +
-                        " Klub ini bermain di Liga 1. "));
+                "Total main                                       31\n" +
+                        "Menang                                           17\n" +
+                        "Seri                                                     8\n" +
+                        "Kalah                                                 6\n" +
+                        "Goal Masuk                                    51\n" +
+                        "Goal Kemasukan                           32\n" +
+                        "Selisih Goal                                    19"));
         listKlub.add(new Klub("Arema",
                 "Peringkat 5 Klasemen Sementara Liga 1",
                 "https://upload.wikimedia.org/wikipedia/id/thumb/4/40/Logo_Arema_FC_2017_logo.svg/200px-Logo_Arema_FC_2017_logo.svg.png",
-                "Arema Football Club, biasa disebut dengan Arema adalah sebuah klub sepak bola profesional yang berasal dari Malang, Jawa Timur, Indonesia.  " +
-                        "Arema berkompetisi di Liga 1 yang merupakan kasta tertinggi sepak bola Indonesia. "));
+                "Total main                                       31\n" +
+                        "Menang                                           16\n" +
+                        "Seri                                                10\n" +
+                        "Kalah                                                 5\n" +
+                        "Goal Masuk                                    38\n" +
+                        "Goal Kemasukan                           22\n" +
+                        "Selisih Goal                                    16"));
         dataKlub = new DataKlub(listKlub);
         dataKlub.setListener(this);
         layoutManager = new LinearLayoutManager(getApplicationContext());

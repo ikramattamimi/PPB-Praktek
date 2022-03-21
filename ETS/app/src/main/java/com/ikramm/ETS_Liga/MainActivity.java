@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.ikramm.ETS_Liga.R;
-
 public class MainActivity extends AppCompatActivity {
     Handler handler;
     @Override

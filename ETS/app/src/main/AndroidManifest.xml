@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.ikramm.ETS_Liga.com.ikram.ETSGAIS.MainActivity">
+        <activity android:name="com.ikramm.ETS_Liga.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ikramm.ETS_Liga.com.ikram.ETSGAIS.HalamanUtamaActivity" />
-        <activity android:name="com.ikramm.ETS_Liga.com.ikram.ETSGAIS.HalamanDetailActivity" />
-        <activity android:name="com.ikramm.ETS_Liga.com.ikram.ETSGAIS.HalamanTentangActivity" />
+        <activity android:name="com.ikramm.ETS_Liga.HalamanUtamaActivity" />
+        <activity android:name="com.ikramm.ETS_Liga.HalamanDetailActivity" />
+        <activity android:name="com.ikramm.ETS_Liga.HalamanTentangActivity" />
     </application>
 
 </manifest>
